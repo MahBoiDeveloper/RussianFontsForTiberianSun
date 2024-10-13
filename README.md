@@ -1,1 +1,2 @@
-# RussianFontsForTiberianSun
+# Русские шрифты для Tiberian Sun
+Этот репозиторий представляет собой сборник разных шрифтов для Tiberian Sun.

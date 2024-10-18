@@ -1,0 +1,33 @@
+name: Build Project
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  build-clients:
+    runs-on: windows-2022
+    strategy:
+      matrix:
+        Font: 
+          - TI
+          - TS_Bold
+          - TS_Regular
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Build ${{matrix.Font}}
+      run: ./Scripts/Build.bat ${{matrix.Font}}
+      shell: cmd
+
+    - uses: actions/upload-artifact@v4
+      name: Upload Artifacts
+      with:
+        name: artifacts-${{matrix.Font}}
+        path: ./Compiled/${{matrix.Font}}

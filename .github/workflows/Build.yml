@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-clients:
+  build-fonts:
     runs-on: windows-2022
     strategy:
       matrix:
@@ -30,4 +30,4 @@ jobs:
       name: Upload Artifacts
       with:
         name: artifacts-${{matrix.Font}}
-        path: ./Compiled/${{matrix.Font}}
+        path: ./Build/${{matrix.Font}}

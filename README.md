@@ -2,9 +2,9 @@
 Этот репозиторий представляет собой сборник разных русифицированных шрифтов для Tiberian Sun. Все шрифты расположены в папках `/Source`. 
 
 Описание шрифтов по папкам:
-* `TI` — шрифт, использованный для русификации [Twisted Insurrection](https://github.com/OmniBlade/ccmix)
-* `TS_Regular` — шрифт, использованный для русификации [The Second Tiberium War](https://github.com/OmniBlade/ccmix)
-* `TS_Bold` — шрифт, использованный для русификации Tiberian Sun Client (скоро будет...)
+* `TI` — шрифт, использованный для русификации [Twisted Insurrection](https://www.moddb.com/games/cc-tiberian-sun/addons/twisted-insurrection-09021)
+* `TS_Regular` — шрифт, использованный для русификации [The Second Tiberium War](https://www.moddb.com/games/cc-tiberian-sun/addons/the-second-tiberium-war-291-russian)
+* `TS_Bold` — шрифт, использованный для русификации [Tiberian Sun Client](https://www.moddb.com/mods/russian-dubbing-and-translation/downloads/tiberian-sun-client-606-russian-dub-2024) (скоро будет...)
 
 ## Благодарности
 * Westwood Studios: создание Tiberian Sun и Вселенной C&C

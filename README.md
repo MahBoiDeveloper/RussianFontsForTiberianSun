@@ -1,4 +1,6 @@
 # Русские шрифты для Tiberian Sun
+[![Github All Releases](https://img.shields.io/github/downloads/MahBoiDeveloper/RussianFontsForTiberianSun/total.svg)](https://github.com/MahBoiDeveloper/RussianFontsForTiberianSun/releases) [![Support me on Boosty](https://img.shields.io/badge/boosty-50₽/month-green.svg?logo=boosty)](https://boosty.to/mah_boi)
+
 Этот репозиторий представляет собой сборник разных русифицированных шрифтов для Tiberian Sun. Все шрифты расположены в папках `/Source`. 
 
 Описание шрифтов по папкам:
